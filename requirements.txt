@@ -1,0 +1,11 @@
+certifi==2021.5.30
+chardet==4.0.0
+folium==0.12.1
+idna==2.10
+numpy==1.21.2
+playsound==1.3.0
+PyAudio==0.2.11
+Pygments==2.10.0
+requests==2.26.0
+tkinter
+webbrowser
