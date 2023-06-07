@@ -78,9 +78,9 @@ def find_path_with_api(start=str,end=str):
     headers = {
         'Accept': 'application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8',
     }
-    link = "https://api.openrouteservice.org/v2/directions/" # the api ling
+    link = "" # the api ling
     typ = "foot-walking?" # tupe on navigation can be walking or car or whatever
-    key = "api_key=5b3ce3597851110001cf6248a25bfff2d390457faf04afc0010647f3&" # the api key that need to be update every while 
+    key = "" # the api key that need to be update every while 
 
     start = "start=" + start +"&"  # get the start point coordinates in the format start=x,y&
     end ="end=" + end # get the end point coordinates in the format end=x,y
